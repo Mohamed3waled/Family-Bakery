@@ -254,6 +254,7 @@ h1 {
 .img-2 , 
 .img-3 {
     width: 90%;
+    border-radius: 5px;
 } 
 /* Start Card-img */
 /* End Section-4 */
