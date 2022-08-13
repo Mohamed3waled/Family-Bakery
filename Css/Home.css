@@ -12,6 +12,32 @@ li {
     list-style-type: none;
 }
 
+/* ========= Position fixed ========= */
+.position ul li {
+    padding: 10px 0 ;
+    color: #333;
+}
+.position ul li .fa-solid {
+    font-size: 23px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.position {
+    background-color: #fff;
+    width: fit-content;
+    padding: 8px 8px ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    
+}
+.position ul li .fa-solid:hover {
+    color: #0275d8;
+}
+/* ========= Position fixed =========  */
+
 .container-section-1 {
     background-image: url(../Image/drew-coffman-1872.jpg);
     background-size: cover;
